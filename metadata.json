@@ -1,0 +1,5 @@
+{
+  "name": "이미지 자막 지우기",
+  "description": "An application that uses AI to remove subtitles and text from an uploaded image, providing a clean version of the original.",
+  "requestFramePermissions": []
+}
