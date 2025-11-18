@@ -40,6 +40,8 @@ jobs:
       # 일반적으로 'dist' 또는 'build' 폴더가 생성됩니다.
       - name: Build
         run: npm run build
+        env: 
+          VITE_GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       # 5. GitHub Pages에 배포
       # 빌드 결과물이 담긴 폴더를 gh-pages 브랜치로 푸시합니다.
